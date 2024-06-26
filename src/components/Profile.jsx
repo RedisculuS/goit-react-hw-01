@@ -36,10 +36,10 @@ export const Profile = ({ name, tag, location, image, stats }) => {
 
 Profile.propTypes = {
   name: PropTypes.string.isRequired,
-  tag: PropTypes.string,
+  tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
-  image: PropTypes.string,
-  stats: PropTypes.string,
+  image: PropTypes.string.isRequired,
+  stats: PropTypes.string.isRequired,
 };
 
 export default Profile;
