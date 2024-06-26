@@ -1,0 +1,64 @@
+.mainBox {
+  border: 4px solid black;
+  border-radius: 16px;
+  margin: 50px;
+}
+
+.avatarInfoBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgProfile {
+  border-radius: 50%;
+  background-color: grey;
+  width: 350px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.nameAvatar {
+  font-weight: 700;
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+
+.avatarDescr {
+  font-weight: 500;
+  font-size: 60px;
+  color: grey;
+  margin-bottom: 20px;
+}
+
+.statsList {
+  background-color: lightgray;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-top: 4px solid grey;
+}
+
+.statsListItem {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 10px;
+  font-size: 45px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: calc((100% - 40px) / 3);
+  border-right: 4px solid grey;
+}
+
+.statsListItem:last-child {
+  border-right: none;
+}
+
+.statsListItemCount {
+  font-weight: 700;
+}
